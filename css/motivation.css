@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.papier{
+  top: 50px;
+  vertical-align: middle;
+  margin: auto;
+  position: relative;
+  background-image: url(papier.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  height: 640px;
+  width: 640px;
+
+}
+.papiertext{
+    top: 50px;
+    vertical-align: middle;
+    margin: auto;
+    position: relative;
+    height: 320px;
+    width: 320px;
+    font-family: sans-serif;
+    font-style: italic;
+}
