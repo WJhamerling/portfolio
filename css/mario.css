@@ -1,0 +1,466 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/stars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: rgba(255,255,255,.75);
+  background-color: rgb(25,25,25);
+}
+
+.box{
+  position: absolute;
+  top: 2%;
+  float: left;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+   height: 420px;
+  background: teal;
+  border: solid 10px #46c92c;
+  border-style: dashed;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 40%;
+  height: 65%;
+  background: #f9dfa9;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+
+.head-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #f9dfa9;
+  border: solid 1px black;
+  border-radius: 90px 90px 180px 180px;
+  z-index: 2;
+}
+
+.pet-boven{
+position: absolute;
+width: 120%;
+height: 55%;
+left: -10%;
+top: -22%;
+background: red;
+border: solid 1px black;
+border-radius: 100% 100% 65% 65%;
+z-index: 3;
+}
+
+.pet-logo{
+  position: absolute;
+  width: 45%;
+  height: 35%;
+  left: 27.5%;
+  top: -3%;
+  background: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  z-index: 4;
+}
+.logo-m{
+  position: absolute;
+  -webkit-clip-path: polygon(7% 94%, 19% 31%, 46% 59%, 74% 33%, 87% 95%, 72% 94%, 65% 64%, 46% 73%, 29% 64%, 18% 94%);
+  clip-path: polygon(7% 94%, 19% 31%, 46% 59%, 74% 33%, 87% 95%, 72% 94%, 65% 64%, 46% 73%, 29% 64%, 18% 94%);
+  width: 15%;
+  height: 15%;
+  left: 38%;
+  top: 13%;
+  background: #b20200;
+  border: solid 1px black;
+  z-index: 18;
+}
+
+.pet-klep{
+  position: absolute;
+
+  width: 125%;
+  height: 15%;
+  left: -12.5%;
+  top: 18%;
+  background: red;
+  border: solid 1px black;
+  border-radius: 180px 180px 90px 90px;
+  z-index: 5;
+}
+.ear-left{
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  left: -10%;
+  top: 35%;
+  background: #f9dfa9;
+  border: solid 1px black;
+  border-radius: 50%;
+  z-index: 0;
+}
+.ear-right{
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  right: -11.35%;
+  top: 35%;
+  background: #f9dfa9;
+  border: solid 1px black;
+  border-radius: 50%;
+  z-index: 1;
+}
+.inner-ear{
+  position: absolute;
+  border-radius: 50%;
+  width: 75%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #ccaf7e;
+  border: solid 1px black;
+}
+
+.eye-left{
+  position: absolute;
+  background: white;
+  width: 23%;
+  height: 26%;
+  top: 30%;
+  left: 21%;
+  border-radius: 90% 45px 45px 90%;
+  border: solid 1px black;
+  -webkit-box-shadow: inset -0.20em 1.39em 0em -0.99em black;
+  z-index: 6;
+}
+.eye-right{
+  position: absolute;
+  background: white;
+  width: 23%;
+  height: 26%;
+  top: 30%;
+  right: 21%;
+  border: solid 1px black;
+  border-radius: 45px 90% 90% 45px;
+  -webkit-box-shadow: inset 0.20em 1.39em 0em -0.99em black;
+  z-index: 7;
+}
+.pupil-links{
+  position: absolute;
+  width: 55%;
+  height: 65%;
+  top: 27%;
+  left: 30%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: #4bc5f2;
+}
+.pupil-rechts{
+  position: absolute;
+  width: 55%;
+  height: 65%;
+  top: 27%;
+  left: 10%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: #4bc5f2;
+}
+
+.nose{
+  position: absolute;
+  background: #f9dfa9;
+  width: 45%;
+  height: 30%;
+  left: 27%;
+  top: 55%;
+  border: solid 1px black;
+  border-radius: 50px;
+   z-index: 100;
+}
+
+.snor-links1{
+  position: absolute;
+  background: black;
+  width: 25%;
+  height: 10%;
+  left: 5%;
+  top: 70%;
+  border: solid 1px black;
+  border-radius: 0px 50% 50% 180%;
+  z-index: 16;
+  transform: rotate(35deg);
+}
+.snor-links2{
+  position: absolute;
+  background: black;
+  width: 25%;
+  height: 10%;
+  left: 12%;
+  top: 75%;
+  border: solid 1px black;
+  border-radius: 50px;
+  z-index: 17;
+}
+.snor-links3{
+  position: absolute;
+  background: black;
+  width: 25%;
+  height: 10%;
+  left: 20%;
+  top: 78%;
+  border: solid 1px black;
+  border-radius: 50px;
+  z-index: 12;
+  transform: rotate(-15deg);
+}
+
+.snor-rechts1{
+  position: absolute;
+  background: black;
+  width: 11%;
+  height: 6%;
+  right: 36%;
+  top: 62%;
+  border: solid 1px black;
+  border-radius: 50% 0px 180% 50%;
+  transform: rotate(-35deg);
+  z-index: 15;
+}
+
+.snor-rechts2{
+  position: absolute;
+  background: black;
+  width: 11.5%;
+  height: 6%;
+  right: 39%;
+  top: 65.8%;
+  border: solid 1px black;
+  border-radius: 50px;
+  z-index: 14;
+}
+.snor-rechts3{
+position: absolute;
+background: black;
+width: 11.5%;
+height: 6.5%;
+right: 42.8%;
+top: 67.2%;
+border: solid 1px black;
+border-radius: 50px;
+transform: rotate(15deg);
+  z-index: 13;
+}
+.mond{
+  position: absolute;
+  background: darkred;
+  width: 15%;
+  height: 10%;
+  left: 37.5%;
+  top: 70.5%;
+  border: solid 1px black;
+  border-radius: 10px 10px 540px 540px;
+  z-index: 9;
+}
+.tanden{
+  position: absolute;
+  background: white;
+  width: 15%;
+  height: 2%;
+  left: 37.5%;
+  top: 72.25%;
+  border: solid 1px black;
+  border-radius: 10px 10px 540px 540px;
+  z-index: 11;
+}
+
+.bakkebaard-links{
+  position: absolute;
+  background: #6d300f;
+  width: 4%;
+  height: 16%;
+  left: 24.75%;
+  top: 38.5%;
+border: solid 1px black;
+  border-radius: 0px 0px 360% 110px;
+  z-index: 18;
+}
+.bakkebaard-rechts{
+  position: absolute;
+  background: #6d300f;
+  width: 4%;
+  height: 16%;
+  right: 34%;
+  top: 38.5%;
+border: solid 1px black;
+  border-radius: 0px 0px 110px 350%;
+  z-index: 19;
+}
+.pupilin-links{
+  position: absolute;
+  width: 3%;
+  height: 6%;
+  top: 45%;
+  left: 38%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: black;
+  z-index: 200;
+}
+.pupilin-rechts{
+  position: absolute;
+  width: 3%;
+  height: 6%;
+  top: 45%;
+  left: 48.75%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: black;
+  z-index: 201;
+}
+.pupilin1-links{
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  top: 47%;
+  left: 38.85%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: white;
+  z-index: 200;
+    /* left: 29.95%; */
+}
+.pupilin1-rechts{
+  position: absolute;
+  width: 2%;
+  height: 3%;
+  top: 47%;
+  left: 48.85%;
+  border: solid 1px black;
+  border-radius: 50%;
+  background: white;
+  z-index: 201;
+}
+
+.wenkbrauw-links1{
+  position: absolute;
+  background: none;
+  width: 3%;
+  height: 8%;
+  left: 29.75%;
+  top: 35%;
+  width: 80px;
+    height: 15%;
+    border-radius: 50%;
+    box-shadow: 0px -15px 0 0 black;
+  z-index: 301;
+}
+
+.wenkbrauw-links2{
+  position: absolute;
+  background: none;
+  width: 3%;
+  height: 8%;
+  left: 30%;
+  top: 38%;
+  width: 80px;
+    height: 13%;
+    border-radius: 50%;
+    box-shadow: 0px -15px 0 0 #f9dfa9;
+  transform: rotate(-20deg);
+  z-index: 302;
+}
+
+.wenkbrauw-rechts1{
+  position: absolute;
+  background: none;
+  width: 3%;
+  height: 12%;
+  left: 47.20%;
+  top: 35.25%;
+  width: 80px;
+    height: 15%;
+    border-radius: 50%;
+    box-shadow: 0px -15px 0 0 black;
+  z-index: 401;
+}
+ .wenkbrauw-rechts2{
+position: absolute;
+background: none;
+width: 3%;
+height: 8%;
+left: 46.75%;
+top: 37.95%;
+width: 80px;
+height: 13.25%;
+border-radius: 50%;
+box-shadow: 0px -15px 0 0 #f9dfa9;
+transform: rotate(17deg);
+z-index: 402;
+}
+
+
+.mario64box{
+  position: relative;
+  float: right;
+  margin: auto;
+  display: block;
+  background-image: url(../images/mario64.jpg);
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 5%;
+  width: 250px;
+   height: 250px;
+  border: solid 5px white;
+  border-radius: 50%;
+}
+
+.wjtext{
+  position: relative;
+  top: 12.5%;
+  left: 32.5%;
+  float: left;
+  display: block;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15% 15% 15% 15%;
+  border-style: hidden;
+  border-spacing: 2px;
+  shadow: black 10px 10px 10px 10px;
+}
+.textbubble {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 150px;
+  height: 125px;
+  background-color: white;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 69% 75%, 32% 99%, 48% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 69% 75%, 32% 99%, 48% 75%, 0% 75%);
+ }
+ 
+.wjtext1{
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  text-align: center;
+  text-align-last: center;
+  font-family: arial;
+  color: rgb(0, 0, 0);
+  opacity: 1.0;
+  text-shadow: 1px 2px 3px red;
+  font-size: 12pt;
+}
+
