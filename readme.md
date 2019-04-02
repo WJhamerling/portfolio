@@ -1,9 +1,6 @@
-Hello,
+#Portfolio v1
 
-This is my portfolio.
-It will become better and more beautiful as i'm learning.
+This is the first version of my Portfolio.
 
-Greetings,
-
-Willem-Jan Hamerling
+Worktime: about 1 week.
 
